@@ -5,7 +5,7 @@
 
 auto get_URBG() {
   std::random_device rd;
-  // 使用random_device生成seed
+  // generate seed
   std::mt19937 g(rd());
 
   return g;
